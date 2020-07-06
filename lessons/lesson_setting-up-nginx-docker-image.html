@@ -30,7 +30,10 @@
         Now that you have image you can simply run the image, passing in the working directory where your website is located to the NGINX website
         directory.  This allows you to simply navigate to http://localhost and boom see changes live as you make them.  Navigate to the directory in your
         terminal where you website id located, and run this command.
+        <p>MacOS and Probably Linux</p>
         <p><em>docker run --rm -v $(pwd):/usr/share/nginx/html -p 80:80 nginx</em></p>
+        <p>Windows 10</p>
+        <p><em>docker run --rm -v %cd%:/usr/share/nginx/html -p 80:80 nginx</em></p>
         <h4>What is this command doing? </h4>
         docker run - tells docker to run an image <br>
         --rm <br>
