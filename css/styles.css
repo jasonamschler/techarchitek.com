@@ -1,24 +1,25 @@
 body {
-    background-color: #6457A6;
+    background-color: #2D51C8;
     color: #00BD9D;
     width: 70%;
-    text-align: center;
 }
 
 h1 {
-    color: #00BD9D;
+    color: white;
+    background-color: #B6244F;
 }
 
 h2 {
-    color: #ADA9B7
+    color: #ADA9B7;
+
 }
 
 h3 {
-    color: #ADA9B7
+    color: #ADA9B7;
 }
 
 hr {
-    color: #ADA9B7;
+    color: white;
 }
 
 a {
