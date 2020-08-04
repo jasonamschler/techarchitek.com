@@ -46,3 +46,10 @@ em {
     margin-left: auto;
     text-align: center;
 }
+
+#codetxt {
+    background-color: darkgrey;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    padding: 1%;
+}
