@@ -5,6 +5,10 @@ html{
     color: #00BD9D;
 }
 
+body {
+    margin: 4px;
+}
+
 h1 {
     color: white;
     background-color: #B6244F;
@@ -52,4 +56,28 @@ em {
     font-family: 'Courier New', Courier, monospace;
     font-style: normal;
     padding: 1%;
+}
+
+#left {
+    width: 40%;
+    background-color: yellow;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+#right {
+    width: 40%;
+    background-color: red;
+    display: inline-block;
+}
+
+#topmenu {
+    position: fixed;
+    top: 0;
+    left: 100px;
+    background-color:  royalblue;
+    max-width: 960px;
+
 }
