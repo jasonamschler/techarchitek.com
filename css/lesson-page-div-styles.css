@@ -13,6 +13,11 @@ body {
     width: 960px;
 }
 
+#highlight {
+    background-color: yellow;
+    color: blue;
+}
+
 #relboxred {
     height: 100px;
     width: 100px;

@@ -1,0 +1,58 @@
+#staticapple {
+ background-color: grey;
+ width: 300px;
+}
+
+#relativeapple {
+    left: 100px;
+    width: 300px;
+    position: relative;
+    background-color: grey;
+}
+
+#relativedownapple {
+    top: 30px;
+    width: 300px;
+    position: relative;
+    background-color: grey;
+}
+
+#redsquare {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+#bluesquare {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block;    
+    position: relative;
+    right: 100px;
+}
+
+#yellowsquare {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+}
+
+#redhighlight {
+    background-color: red;
+}
+
+#yellowhighlight {
+    background-color: yellow;
+}
+
+#bluehighlight {
+    background-color: blue;
+    color: white;
+}
