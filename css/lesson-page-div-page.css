@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    width: 15%;
+    margin: 0 auto 0 auto;
+}
+
+#topcontainer {
+    background-color: yellow;
+    position: relative;
+    padding-top: 100px;
+}
+
+#middlecontainer {
+    background-color: green
+}
+
+#bottomcontainer {
+    background-color: blue
+}
+
+.bottom-apple {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top-apple {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>TechArchitek: HTML Forms</title>
+</head>
+<body>
+    <a href="/index.html">Home</a>
+    <a href="/lessons.html">Lessons</a>
+    <h1>Every Form Field...</h1>
+    <form action="/index.html" method="POST">
+        <p> 
+            <label for="">Your First Name</label>
+            <input type="text">
+        </p>
+        <p>
+            <label for="">Your Email Address</label>
+            <input type="email">
+        </p>
+        <p>
+            <label for="">Phone Number of your Best Friend</label>
+            <input type="tel" name="" id="">
+        </p>
+        <p>
+            <label for="">Your Favorite Website</label>
+            <input type="url" name="" id="">
+        </p>
+        <p>
+            <label for="">Your Favorite Numbers</label>
+            <input type="number" name="" id="">
+        </p>
+        <p>
+            <label for="">How much does your Significant Other Weigh?</label>
+            <input type="range" name="soweight" id="soweight" min="0" max="220" step="1" value="120">
+            <!-- This will require JavaScript -->
+            <output class="weight-output" for="soweight"></output>
+            <!-- This will require JavaScript -->
+        </p>
+        <p>
+            <label for="">Your Birthday</label>
+            <input type="datetime-local" name="" id="">
+        </p>
+        <p>
+            <label for="">Your Birth Month</label>
+            <input type="month" name="" id="">
+        </p>
+        <p>
+            <label for="">What time is it?</label>
+            <input type="time" name="" id="">
+        </p>
+        <p>
+            <label for="myDate">I have the control!!! Pick a date!</label>
+            <input type="date" name="myDate" min="2019-06-01" max="2020-08-31" step="7" id="myDate">
+        </p>    
+        <p>
+            <label for="">Search Me!</label>
+            <input type="search">
+        </p>
+        <p>
+            <label for="">Your Favorite Color</label>
+            <input type="color" name="" id="">
+        </p>
+        <p>
+            <label for="">Your Most Secret Password</label>
+            <input type="password"> (Please don't really put in your most secret password.)
+        </p>
+        </p>
+        <p>
+            <label for="">Check if Alive</label>
+            <input type="checkbox" name="" id="">
+        </p>
+        <p>
+            <label for="">Type Some Stuff</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="" id="">
+        </p>
+</form>
+</body>
+</html>

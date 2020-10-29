@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/lesson-page-css-positioning.css">
+    <title>CSS Positioning</title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <a href="/index.html">Home</a>
+    <a href="/lessons.html">Lessons</a>
+    <h1>Position Properties</h1>
+    <hr>
+    <h2>Static - Go along with default rules</h2>
+    <div id="staticapple"><img src="/images/apple.png"></div>
+    <hr>
+    <h2>Relative - Relative to where it would have been</h2>
+    <p>The apple below is moved to the right 100 pixels, relative to where it would have been</p>
+    <div id="relativeapple"><img src="/images/apple.png"></div>
+    <p>There are two apples below.  The bottom one is static the top one is relative and moved down 30 pixels.</p>
+    <div id="relativedownapple"><img src="/images/apple.png"></div>
+    <div id="staticapple"><img src="/images/apple.png"></div>
+    <h3>Relative with Inline Block</h3>
+    <p>The sqaures below are 100 pixel X 100 pixel divs with inline block so they are on the same line and relative position to order them.  
+        There original order is <span id="redhighlight">red</span>, <span id="yellowhighlight">yellow</span> and <span id="bluehighlight">blue</span>.  The CSS reorders them.
+    </p>
+    <div id="redsquare"></div>
+    <div id="yellowsquare"></div>
+    <div id="bluesquare"></div>
+    <h3>Relative with Absolute</h3>
+    <p>So the green square below is moved to the right, but with left=50px because it is set to relative positioning.  This is relative to where it would have been.</p>
+    <p>The pink square inside the green square is also moved to the right, but with right=25px, because it's position is set to
+        absolute, to the Green Square DIV tag that is inside of.
+    </p>
+    <div id="greensquare">
+        <div id="pinksquare"></div>
+    </div>
+    
+    <hr>
+    <h2>Absolute</h2>
+    <p>The colored squares below are set to their postion by absolute positioning, relative to the light gray square they reside within.</p>
+    <div id=absoluteexample>
+        <div id=cyansquare></div>
+        <div id=greenyellowsquare></div>
+        <div id=magentasquare></div>
+    </div>
+
+    <hr>
+    <h2>Fixed</h2>
+    <p>Look up at the top of the page.</p>
+    <div id=fixedexample>
+        <p>This is a fixed Example</p>
+    </div>
+
+</body>
+</html>

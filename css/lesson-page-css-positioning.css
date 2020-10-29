@@ -1,0 +1,115 @@
+#staticapple {
+ background-color: grey;
+ width: 300px;
+}
+
+#relativeapple {
+    left: 100px;
+    width: 300px;
+    position: relative;
+    background-color: grey;
+}
+
+#relativedownapple {
+    top: 30px;
+    width: 300px;
+    position: relative;
+    background-color: grey;
+}
+
+#redsquare {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+}
+
+#bluesquare {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    display: inline-block;    
+    position: relative;
+    right: 100px;
+}
+
+#yellowsquare {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    display: inline-block;
+    position: relative;
+    right: 100px;
+}
+
+#pinksquare {
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+    position: absolute;
+    right: 25px;
+}
+
+#greensquare {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: relative;
+    left: 50px;
+}
+
+#absoluteexample {
+    height: 300px;
+    width: 300px;
+    background-color: lightgray;
+    position: relative;
+}
+
+#cyansquare {
+    height: 100px;
+    width: 100px;
+    background-color: cyan;
+    position: absolute;
+    top: 0px;
+}
+
+#greenyellowsquare {
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+#magentasquare {
+    height: 100px;
+    width: 100px;
+    background-color: magenta;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+#redhighlight {
+    background-color: red;
+}
+
+#yellowhighlight {
+    background-color: yellow;
+}
+
+#bluehighlight {
+    background-color: blue;
+    color: white;
+}
+
+#fixedexample {
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%
+}

@@ -3,44 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
     <title>TechArchitek: Docker NGINX</title>
 </head>
 <body>
     <a href="/index.html">Home</a>
-    <h1>Setting Up Docker NGINX</h1>
-    <p>So first off, this is really simple...now...  And that is the beauty of using docker images, they can speed up just about anything!
-        Docker has some really great walk-throughs and tutorials and if you are looking for resources to learn more about Docker
-        here are some great ones.
-        <ul>
-            <li><a href="https://docs.docker.com/"></a>Docker Docs</li>
-            <li><a href="https://www.tutorialspoint.com/docker/index.htm">Tutorials Point</a></li>
-        </ul>
+    <a href="/lessons.html">Lessons</a>
+        <h1>Setting Up Docker NGINX</h1>
+        <p>So first off, this is really simple...now...  And that is the beauty of using docker images, they can speed up just about anything!
+            Docker has some really great walk-throughs and tutorials and if you are looking for resources to learn more about Docker
+            here are some great ones.
+            <ul>
+                <li><a href="https://docs.docker.com/"></a>Docker Docs</li>
+                <li><a href="https://www.tutorialspoint.com/docker/index.htm">Tutorials Point</a></li>
+            </ul>
 
-        Getting started, I'm going to assume you have Docker installed, if not check out the instructions here:  <a href="https://docs.docker.com/get-docker/">Getting Started with Docker</a>
-        Once Docker is installed just follow the steps below.
-    </p>
-    <p>
-        <h2>Step 1</h2>
-        <h3>Getting the NGINX Docker Image</h3>
-        You need a copy of the NGINX Docker image on your local environment.  You can achieve this by inputting the following command.  This will pull
-        the latest/newest NGINX image in the Docker Repo.
-        <p><em>docker pull nginx</em></p>
-        <h2>Step 2</h2>
-        <h3>Run the Docker Image</h3>
-        Now that you have image you can simply run the image, passing in the working directory where your website is located to the NGINX website
-        directory.  This allows you to simply navigate to http://localhost and boom see changes live as you make them.  Navigate to the directory in your
-        terminal where you website id located, and run this command.
-        <p>MacOS and Probably Linux</p>
-        <p><em>docker run --rm -v $(pwd):/usr/share/nginx/html -p 80:80 nginx</em></p>
-        <p>Windows 10</p>
-        <p><em>docker run --rm -v %cd%:/usr/share/nginx/html -p 80:80 nginx</em></p>
-        <h4>What is this command doing? </h4>
-        docker run - tells docker to run an image <br>
-        --rm <br>
-        -v is doing the magic of mapping the current directory you are in (your website directory) to the websites directory of the docker image <br>
-        -p is mapping port 80 on the NGINX container to your host, allowing you to browse to http://localhost:80 to see your site. <br>
-        nginx is the image you want to run (this is the image you pulled down in step 1) <br>
-        
-    </p>
+            Getting started, I'm going to assume you have Docker installed, if not check out the instructions here:  <a href="https://docs.docker.com/get-docker/">Getting Started with Docker</a>
+            Once Docker is installed just follow the steps below.
+        </p>
+        <hr>
+        <p>
+            <h2>Step 1</h2>
+            <h3>Getting the NGINX Docker Image</h3>
+            You need a copy of the NGINX Docker image on your local environment.  You can achieve this by inputting the following command.  This will pull
+            the latest/newest NGINX image in the Docker Repo.
+            <p><em>docker pull nginx</em></p>
+            <h2>Step 2</h2>
+            <h3>Run the Docker Image</h3>
+            Now that you have image you can simply run the image, passing in the working directory where your website is located to the NGINX website
+            directory.  This allows you to simply navigate to http://localhost and boom see changes live as you make them.  Navigate to the directory in your
+            terminal where you website id located, and run this command.
+            <h4>MacOS and Probably Linux</h4>
+            <p><em id="codetxt">docker run --rm -v $(pwd):/usr/share/nginx/html -p 80:80 nginx</em></p>
+            <h4>Windows 10</h4>
+            <p><em id="codetxt">docker run --rm -v %cd%:/usr/share/nginx/html -p 80:80 nginx</em></p>
+            <br>
+            <h4>What is this command doing? </h4>
+            docker run - tells docker to run an image <br>
+            --rm <br>
+            -v is doing the magic of mapping the current directory you are in (your website directory) to the websites directory of the docker image <br>
+            -p is mapping port 80 on the NGINX container to your host, allowing you to browse to http://localhost:80 to see your site. <br>
+            nginx is the image you want to run (this is the image you pulled down in step 1) <br>
+            
+        </p>
 </body>
 </html>
