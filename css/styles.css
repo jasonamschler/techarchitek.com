@@ -55,7 +55,7 @@ em {
     text-align: center;
     background-color: #011638;
     margin-bottom: 0;
-    height: 900px;
+    height: 1000px;
     position: relative;
     top: 35px;
 }
@@ -72,28 +72,44 @@ em {
 
 #topcontainerskillrow {
     background-color: white;
+    position: relative;
+    height: 275px;
 }
 
 .skillazure {
     display: inline-block;
-    height: 150px;
-    position: relative;
+    height: 200px;
+    vertical-align: top;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .skillaws {
     display: inline-block;
-    height: 150px;
-    position: relative;
-    top: 10;
+    height: 200px;
+    vertical-align: top;
+    font-family: 'Share Tech Mono', monospace;
 }
 
+.skilltf {
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.skillans {
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    font-family: 'Share Tech Mono', monospace;
+}
 
 #middlecontainer {
     margin-right: auto;
     margin-left: auto;
     margin-top: 0;
     text-align: center;
-    padding: 0px;
+    padding: 200px;
     background-color: #54DEFD;
     color: #011638;
 
@@ -170,6 +186,3 @@ em {
     font-size: 250%;
 }
 
-.skills {
-
-}
