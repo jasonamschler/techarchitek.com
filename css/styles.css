@@ -38,6 +38,17 @@ em {
     width: 100%;
 }
 
+#topmenu a {
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+#topmenu a:hover {
+    background-color: #54DEFD;
+}
+
 #topcontainer {
     margin-right: auto;
     margin-left: auto;
@@ -62,6 +73,20 @@ em {
 #topcontainerskillrow {
     background-color: white;
 }
+
+.skillazure {
+    display: inline-block;
+    height: 150px;
+    position: relative;
+}
+
+.skillaws {
+    display: inline-block;
+    height: 150px;
+    position: relative;
+    top: 10;
+}
+
 
 #middlecontainer {
     margin-right: auto;
@@ -147,17 +172,4 @@ em {
 
 .skills {
 
-}
-
-.skillazure {
-    display: inline-block;
-    height: 150px;
-    position: relative;
-}
-
-.skillaws {
-    display: inline-block;
-    height: 150px;
-    position: relative;
-    top: 10;
 }
