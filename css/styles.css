@@ -1,5 +1,6 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #011638;
 }
 
 body {
@@ -54,7 +55,7 @@ em {
     margin-left: auto;
     text-align: center;
     background-color: #011638;
-    margin-bottom: 0;
+    margin-bottom: 10;
     height: 1000px;
     position: relative;
     top: 35px;
@@ -104,22 +105,34 @@ em {
     font-family: 'Share Tech Mono', monospace;
 }
 
+#middlecontainertitle {
+    position: relative;
+    top: 17.5px;
+    padding: 0;
+    margin: 0;
+
+}
+
 #middlecontainer {
     margin-right: auto;
     margin-left: auto;
-    margin-top: 0;
     text-align: center;
-    padding: 200px;
+    padding: 35px 200px 0 200px;
     background-color: #54DEFD;
     color: #011638;
-
+    position: relative;
 }
 
 #bottomcontainer {
     margin-right: auto;
     margin-left: auto;
+    position: relative;
     text-align: center;
+    top: -17.5px;
+    padding: 0;
+    margin: 0px;
     background-color: #011638;
+    color: white;
 }
 
 #codetxt {
