@@ -1,0 +1,24 @@
+#serif {
+    background-color: red;
+    font-family: serif;
+}
+
+#sanserif {
+    background-color: red;
+    font-family: sans-serif;
+}
+
+#googlefonts1 {
+    background-color: red;
+    font-family: 'Merriweather', serif;
+}
+
+#googlefonts2 {
+    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#googlefonts3 {
+    background-color: red;
+    font-family: 'Sacramento', cursive;
+}

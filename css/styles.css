@@ -1,12 +1,10 @@
 html{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
     background-color: #011638;
-    color: #00BD9D;
 }
 
 body {
-    margin: 4px;
+    margin: 0px;
 }
 
 h1 {
@@ -15,25 +13,15 @@ h1 {
 }
 
 h2 {
-    color: #ADA9B7;
+    color: #B6244F;
 }
 
 h3 {
-    color: #ADA9B7;
-}
-
-a {
-    color: #54DEFD;
+    color: #B6244F;
 }
 
 a:hover {
     color: white;
-}
-
-hr {
-    border: none;
-    border-top: 5px double white;
-    height: 5px;
 }
 
 em {
@@ -42,13 +30,109 @@ em {
     font-weight: bold;
 }
 
-#wrap { 
-	/* width: 900px;  */
-    /* margin: 0 auto;  */
-    max-width: 960px;
+#topmenu {
+    color: #54DEFD;
+    background-color: #011638;
+    padding: 10px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+#topmenu a {
+    color: white;
+    text-align: center;
+    padding: 8px 8px;
+    text-decoration: none;
+}
+
+#topmenu a:hover {
+    background-color: #54DEFD;
+}
+
+#topcontainer {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    background-color: #011638;
+    margin-bottom: 10;
+    height: 1000px;
+    position: relative;
+    top: 35px;
+}
+
+.topbanner {
+    margin: 0;
+}
+
+.titlerow {
+    margin: 30px;
+    color: #54DEFD;
+    line-height: 3;
+}
+
+#topcontainerskillrow {
+    background-color: white;
+    position: relative;
+    height: 275px;
+}
+
+.skillazure {
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.skillaws {
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.skilltf {
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.skillans {
+    display: inline-block;
+    height: 200px;
+    vertical-align: top;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+#middlecontainertitle {
+    position: relative;
+    top: 17.5px;
+    padding: 0;
+    margin: 0;
+
+}
+
+#middlecontainer {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 35px 200px 0 200px;
+    background-color: #54DEFD;
+    color: #011638;
+    position: relative;
+}
+
+#bottomcontainer {
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    text-align: center;
+    top: -17.5px;
+    padding: 10px;
+    margin: 0px;
+    background-color: #011638;
+    color: white;
 }
 
 #codetxt {
@@ -71,15 +155,6 @@ em {
     width: 40%;
     background-color: red;
     display: inline-block;
-}
-
-#topmenu {
-    position: fixed;
-    top: 0;
-    left: 100px;
-    background-color:  royalblue;
-    max-width: 960px;
-
 }
 
 .boxes {
@@ -105,3 +180,22 @@ em {
     position: relative;
     top: 10px;
 }
+
+.code {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+}
+
+.color-red {
+    color: #B6244F;
+}
+
+.color-lightblue {
+    color: #54DEFD;
+}
+
+.signature {
+    font-family: 'Dancing Script', cursive;
+    font-size: 250%;
+}
+

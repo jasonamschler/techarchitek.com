@@ -4,42 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/styles.css">
-    <link rel="icon" href="favicon/favicon.ico">
+    <link rel="stylesheet" href="css/library-buttons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Petit+Formal+Script&display=swap" rel="stylesheet">
     <title>TechArchiTek</title>
 </head>
 <body>
-    <div id="wrap">
-    <a href="/index.html">Home</a>
-    <a href="/contact-me.html">Contact Me</a>
-    <h1>Welcome to TechArchitek</h1>
-    <img src="/photos/square-jason-amschler.jpg" alt="Jason Amschler Profile Picture">
-    <h2>Jason Amschler</h2>
-    <hr>
-    <h3>The Purpose</h3>
-    <p>
-        I've always wanted to create a place for people to come and just get started.  The goal of this site is 
-        to create a step by step walkthrough as I work to improve my skillset.  My intention is to document this journey and share it with others.
-        This homepage will change over time as my skillset grows, but for now check out "<a href="/beginning.html">The Beginning</a>" a nice basic HTML
-        page to see what I am up to, and for everyone to know its okay to start basic.
-    </p>
-    <p>
-        The one thing I want to emphasize for anyone who is a seasoned technology professional, is its okay to step back every once and 
-        a while.  I have almost 15 years total experience in some form of technology.  Hats that have fell on my head include:  System Administrator,
-        Business Analyst, Process Engineer, Developer, Software Engineer, Global IT Manager.  <em>But this journey is about strengthening and deepening my
-        skillset, scaling up so to speak versus scaling out.</em>  I hope this journey lasts many more years, and I hope this place on the spider
-        web of information becomes a stop over for those considering the same.
-    </p>
-    <h3>Drupal</h3>
-    <p>
-        I have done a lot of things in my career, but Drupal hasn't been one of them...  Do you know what that means?  It means
-        I am going to work on learning Drupal and adding that to my skillset tree, I am doing that at the same time I work through
-        sharpening my web dev teeth.  You can follow my progress if you would like! 
-    </p>
-    <a href="http://drupal.jasonamschler.com">My Drupal Site</a>
-    <hr>
-    <a href="/beginning.html">The Beginning</a>
-    <a href="/lessons.html">Summary of Lessons</a>
-    <a href="/library.html">My Personal Library</a>
-</div>
+    <div id="topmenu">
+        <a href="/index.html">Home</a>
+        <a href="/contact-me.html">Contact Me</a>
+        <a href="/beginning.html">The Beginning</a>
+        <a href="/lessons.html">Summary of Lessons</a>
+        <a href="/library.html">My Personal Library</a>
+    </div>
+    <div id="topcontainer">
+        <div class="topbanner">
+            <h1 class="topbanner">TechArchiTek</h1>
+        </div>
+        <div class="titlerow">
+            <img src=/images/computer256.png alt=computer image>
+            <p class="signature">Jason Amschler</p>
+            <p class="code" >Currently a Software Engineer</p>
+        </div>
+        <div id=topcontainerskillrow>
+            <div class="skilltext">
+                <h1>A few of my current favorites...</h1>
+            </div>
+            <div class="skillazure">
+                <p class="skills">Azure</P>
+                <img src=images/azure.png>
+            </div>
+            <div class="skillaws">
+                <p class="skills">Amazon Web Services</p>
+                <img src=images/aws.png>
+            </div>
+            <div class="skilltf">
+                <p class="skills">Terraform</p>
+                <img src=images/terraform.png>
+            </div>
+            <div class="skillans">
+                <p class="skills">Ansible</p>
+                <img src=images/ansible.png>
+            </div>
+        </div>
+     </div>
+     <div id="middlecontainertitle">
+        <h1>What is TechArchitek?</h1>
+     </div>
+    <div id="middlecontainer">
+        <img src="/photos/square-jason-amschler.jpg" alt="Jason Amschler Profile Picture">
+        <h2>Two Purposes</h2>
+        <h3>1 - Who is Jason Amschler.</h3>
+        <p>
+            There are two of us on the web if you google my name.  I am the software engineer, the past Global IT Manager, Business Analyst, Developer, System Adminstrator... 
+            I have had the extrordinary opportunity to wear many hats and work across several different sectors of the technology
+            industry.  To learn more about me and my resume click the links below.
+        </p>
+        <p><form action="resume.html">
+            <button class="custom-btn btn-5">Resume</button>
+        </form>
+            </p>
+        <h3>2 - Help Others.</h3>
+        <p>
+            I've always wanted to create a place for people to come and just get started.  The goal of this site is 
+            to create a step by step walkthrough as I work to improve my skillset.  My intention is to document this journey and share it with others.
+            This homepage will change over time as my skillset grows, but for now check out "<a href="/beginning.html">The Beginning</a>" a nice basic HTML
+            page to see what I am up to, and for everyone to know its okay to start basic.
+        </p>
+        <br>
+        <p>
+            The one thing I want to emphasize for anyone who is a seasoned technology professional, is it's okay to step back every once and 
+            a while.  I have almost 15 years total experience in some form of technology.  Hats that have fell on my head include:  System Administrator,
+            Business Analyst, Process Engineer, Developer, Software Engineer, Global IT Manager.  <em>But this journey is about strengthening and deepening my
+            skillset, scaling up so to speak versus scaling out.</em>  I hope this journey lasts many more years, and I hope this place on the spider
+            web of information becomes a stop over for those considering the same.
+        </p>
+        <h3>Drupal</h3>
+        <p>
+            I have done a lot of things in my career, but Drupal hasn't been one of them...  Do you know what that means?  It means
+            I am going to work on learning Drupal and adding that to my skillset tree, I am doing that at the same time I work through
+            sharpening my web dev teeth.  You can follow my progress if you would like! 
+        </p>
+        <p><form action="http://drupal.jasonamschler.com">
+            <button class="custom-btn btn-5">Drupal Website</button>
+        </form>
+            </p>
+    </div>
+    <div id="bottomcontainer">
+       <p>Jason Amschler - 2020</p> 
+       <p>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+    </div>
 </body>
 </html>
