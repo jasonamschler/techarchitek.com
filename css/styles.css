@@ -4,7 +4,7 @@ html{
 }
 
 body {
-    margin: 0px;
+    color: white;
 }
 
 h1 {
@@ -20,6 +20,10 @@ h3 {
     color: #B6244F;
 }
 
+a {
+   color: #54DEFD; 
+}
+
 a:hover {
     color: white;
 }
@@ -28,26 +32,6 @@ em {
     color: #B6244F;
     font-style: italic;
     font-weight: bold;
-}
-
-#topmenu {
-    color: #54DEFD;
-    background-color: #011638;
-    padding: 10px;
-    position: fixed;
-    z-index: 10;
-    width: 100%;
-}
-
-#topmenu a {
-    color: white;
-    text-align: center;
-    padding: 8px 8px;
-    text-decoration: none;
-}
-
-#topmenu a:hover {
-    background-color: #54DEFD;
 }
 
 #topcontainer {
@@ -123,6 +107,15 @@ em {
     position: relative;
 }
 
+#middlecontainer a {
+ color: #011638;
+}
+
+#middlecontainer a:hover {
+    color: white;
+   }
+
+
 #bottomcontainer {
     margin-right: auto;
     margin-left: auto;
@@ -181,10 +174,7 @@ em {
     top: 10px;
 }
 
-.code {
-    font-family: 'Share Tech Mono', monospace;
-    font-size: 30px;
-}
+
 
 .color-red {
     color: #B6244F;
@@ -199,3 +189,7 @@ em {
     font-size: 250%;
 }
 
+.code {
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+}
